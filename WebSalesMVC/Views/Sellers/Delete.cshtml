@@ -9,15 +9,14 @@
 <div>
     <h4>Seller</h4>
     <hr />
-    <div class="text-center" >
-            <dl class="dl-horizontal">
-                <dt>
-                    @Html.DisplayNameFor(model => model.Name)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.Name)
-                </dd>
-            </dl>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+        </dl>
         <hr />
 
         <hr />
@@ -52,15 +51,16 @@
                 </dd>
             </dl>
         <hr />
+    
     </div>
     
-    <div style="text-align: center">
+    <div style="text-align: right">
         <form asp-action="Delete">
             <input type="hidden" asp-for="Id" />
-            <input type="submit" value="Delete" class="btn btn-danger" style="margin-right:50px;width:150px" />
-            <a asp-action="Index">Back To List</a>
+            <input type="submit" value="Delete" class="btn btn-danger" style="margin-right:20px;width:150px" />
+            <input asp-action="Index" class="btn btn-success"  type="submit"  value="Back To List" style="width:200px" />
         </form>
     </div>
 
-</div>
+
 
