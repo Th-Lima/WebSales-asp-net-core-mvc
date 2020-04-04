@@ -13,16 +13,15 @@ namespace WebSalesMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Sales Web MVC app";
-            ViewData["Autor"] = "Thales Lima";
-            ViewData["Email"] = "lthales53@gmail.com";
+            ViewData["Message"] = "WebSalesMVC app make in CSHARP and .Net Core with MVC";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Autor"] = "Thales Lima";
+            ViewData["Email"] = "lthales53@gmail.com";
 
             return View();
         }
