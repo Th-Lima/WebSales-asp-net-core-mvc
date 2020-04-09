@@ -2,7 +2,7 @@
 ## Projeto para gerenciamento de vendedores e departamentos criado com a arquitetura MVC
 
 #### Tecnologias utilizadas:
-Asp.net Core  
+Asp.net Core  ![aspnetcore](https://user-images.githubusercontent.com/36715075/78948726-b7c8cb80-7a9f-11ea-806c-d0ea7788f8e4.png)
 Bootstrap  
 Entity Framework  
 Banco de Dados(MySQL)  
