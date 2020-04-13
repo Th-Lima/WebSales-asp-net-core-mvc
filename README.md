@@ -3,7 +3,7 @@
 Projeto de gerenciamento de vendas, vendedores e departamentos com a arquitetura MVC, CRUD completo, utilização de Migrations para gerar scripts automáticos de banco de dados, LINQ para consultas no banco e Entity Framework Core, consultas realizadas com métodos assíncronos utilizando Task/async.
 
 ### Layout:
-![Layout](https://user-images.githubusercontent.com/36715075/78715147-595eea00-78f3-11ea-9f04-7c6a03cc9fa1.JPG)
+![image](https://user-images.githubusercontent.com/36715075/79170768-bd3b5400-7dc6-11ea-8a89-2c127e28b7cc.png)
 
 # Tecnologias utilizadas:  
 ![aspnetcore](https://user-images.githubusercontent.com/36715075/78948726-b7c8cb80-7a9f-11ea-806c-d0ea7788f8e4.png) 
