@@ -5,7 +5,9 @@ Projeto de gerenciamento de vendas, vendedores e departamentos com a arquitetura
 ### Layout:
 ![image](https://user-images.githubusercontent.com/36715075/79170768-bd3b5400-7dc6-11ea-8a89-2c127e28b7cc.png)
 
-## Busca simples e busca agrupada de vendas  
+## Busca simples e busca agrupada de vendas:  
+![image](https://user-images.githubusercontent.com/36715075/79278873-136dcd00-7e83-11ea-8325-2cb172ba0337.png)
+
 
 
 ## Tecnologias utilizadas:  
