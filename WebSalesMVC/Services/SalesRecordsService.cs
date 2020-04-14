@@ -53,5 +53,41 @@ namespace WebSalesMVC.Services
                 .OrderByDescending(x => x.Date)
                 .ToListAsync();
         }
+        public async Task<List<IGrouping<Department,SalesRecord>>> FindByDateGroupingAsync(DateTime? minDate, DateTime? maxDate, SaleStatus status)
+        {
+            var result = from obj in _context.SalesRecord select obj;
+
+            if (minDate.HasValue && maxDate.HasValue && status.Equals(SaleStatus.All))
+            {
+                result = result.Where(x => x.Date >= minDate.Value);
+                result = result.Where(x => x.Date <= maxDate.Value);
+            }
+
+            if (status.Equals(SaleStatus.Billed))
+            {
+                result = result.Where(x => x.Date >= minDate.Value);
+                result = result.Where(x => x.Date <= maxDate.Value);
+                result = result.Where(x => x.Status == SaleStatus.Billed);
+            }
+            if (status.Equals(SaleStatus.Pending))
+            {
+                result = result.Where(x => x.Date >= minDate.Value);
+                result = result.Where(x => x.Date <= maxDate.Value);
+                result = result.Where(x => x.Status == SaleStatus.Pending);
+            }
+            if (status.Equals(SaleStatus.Canceled))
+            {
+                result = result.Where(x => x.Date >= minDate.Value);
+                result = result.Where(x => x.Date <= maxDate.Value);
+                result = result.Where(x => x.Status == SaleStatus.Canceled);
+            }
+
+            return await result
+                .Include(x => x.Seller)
+                .Include(x => x.Seller.Department)
+                .OrderByDescending(x => x.Date)
+                .GroupBy(x => x.Seller.Department)
+                .ToListAsync();
+        }
     }
 }

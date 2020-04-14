@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using WebSalesMVC.Data;
 using WebSalesMVC.Models;
 using Microsoft.EntityFrameworkCore;
