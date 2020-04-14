@@ -1,6 +1,6 @@
 # WebSales-asp-net-core-mvc
 ### Sobre o Projeto:  
-Projeto de gerenciamento de vendas, vendedores e departamentos com a arquitetura MVC, CRUD completo de vendedores e departamentos, utilização de Migrations para gerar scripts automáticos de banco de dados, LINQ para consultas no banco e Entity Framework Core, consultas realizadas com métodos assíncronos utilizando Task/async.
+Projeto de gerenciamento de vendas, vendedores e departamentos com a arquitetura MVC, Razor engine para montar as views, CRUD completo de vendedores e departamentos, utilização de Migrations para gerar scripts automáticos de banco de dados, LINQ para consultas no banco e Entity Framework Core, consultas realizadas com métodos assíncronos utilizando Task/async.
 
 ### Layout:
 ![image](https://user-images.githubusercontent.com/36715075/79170768-bd3b5400-7dc6-11ea-8a89-2c127e28b7cc.png)
