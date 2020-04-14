@@ -8,7 +8,8 @@ Projeto de gerenciamento de vendas, vendedores e departamentos com a arquitetura
 ## Busca simples e busca agrupada de vendas:  
 ![image](https://user-images.githubusercontent.com/36715075/79278873-136dcd00-7e83-11ea-8325-2cb172ba0337.png)
 ### Busca Simples:  
-
+![image](https://user-images.githubusercontent.com/36715075/79279025-7b241800-7e83-11ea-9140-88c1444d2794.png)
+### Busca Agrupada:  
 
 ## Tecnologias utilizadas:  
 ![aspnetcore](https://user-images.githubusercontent.com/36715075/78948726-b7c8cb80-7a9f-11ea-806c-d0ea7788f8e4.png) 
